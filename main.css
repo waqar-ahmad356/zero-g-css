@@ -1441,11 +1441,10 @@ line-height: 24px; /* 150% */
 /*------------------------responsive-----------------------*/
 @media (max-width:521px){
     .cross-chain-section{
-       padding: 40px 16px;
+       padding: 40px 0px;
     }
     .cross-chain{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px;
     }
     .cross-chain h2{
         font-size: 24px;
