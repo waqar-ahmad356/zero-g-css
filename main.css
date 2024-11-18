@@ -303,7 +303,7 @@ line-height: 24px; /* 150% */
     display:flex;
     align-items: center;
     max-width: fit-content;
-    flex-wrap: wrap;
+    
     gap: 24px;
     
 }
@@ -399,6 +399,9 @@ line-height: 30px; /* 150% */
     .hero-btn{
         padding: 10px 20px;
         font-size: 16px;
+    }
+    .hero-box{
+        flex-wrap: wrap;
     }
 }
 @media (max-width:521px){
