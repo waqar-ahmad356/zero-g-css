@@ -43,6 +43,9 @@ a {
 
 .navbar-section {
   background-color:transparent;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   
 }
 .navbar-g {
@@ -50,12 +53,11 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
-  position: sticky;
-  top: 0;
+  
   
  
  
-  z-index: 100000;
+  
 background-color: transparent; /* Initial color */
 transition: background-color 0.3s ease; /* Smooth transition */
   
@@ -715,6 +717,10 @@ align-items: flex-start;
 gap: 24px;
 border-radius: 12px;
 background: #1C2029;
+}
+.about-card:hover{
+    background-color: #77E8C5;
+    
 }
 .about-card .card-img{
     border-radius: 8px;
