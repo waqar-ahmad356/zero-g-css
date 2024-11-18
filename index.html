@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Welcome to Paws n’ Play, the ultimate destination for pet lovers! Explore a world of tail-wagging joy and furry companionship with our wide range of products and services. From pampering essentials to playful toys, we're here to make every moment with your pet pawsitively perfect!" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/android-chrome-512x512.png">
+        <link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Zero-G</title>
+</head>
+
+<body>
+    <div id="overlay"></div>
+   <!---------------------navbar start---------------------->
+    <header class="navbar-section">
+        <div class="container navbar-g">
+            <div>
+            <img src="assets/logo.png"  class="logo" alt="logo"/>
+        </div>
+        <button class="close-btn" id="close-btn" onclick="hideNavbar()">&#10006</button>
+        <img src="./assets/hamburger.png" class="toggle-btn" alt="hamburger" onclick="toggleButton()"/> 
+            <ul class="nav-menus" id="nav-menus">
+                <img src="assets/logo.png"  class="responsive-logo" alt="logo"/>
+                <li><a href="#aboutus">About us</a></li>
+                <li><a href="#documentation">Documentation</a></li>
+                <li><a href="#context">Context</a></li>
+                <li><a href="#eigenlayer">EigenLayer</a></li>
+            </ul>
+           
+            <button class="nav-btn" id="nav-btn">Restake Now</button>
+        
+        </div>
+
+    </header>
+    
+    <!---------------------navbar end----------------------------->
+    <!---------------------hero section start----------------------------->
+    <div class="hero-container">
+    <section class="hero-section">
+        <div class="container hero">
+            <div class="hero-img">
+                <img src="./assets/hero-img.png" alt="hero-img"/>
+            </div>
+            <div class="hero-content">
+                <div class="hero-head">
+                <h1 class="mb-0">Restake with Zero-G
+                    from Anywhere</h1>
+                    <p class="mb-0">Designed to re-stake ETH and LST on multi-chain and leverage additional EigenLayer rewards, Zero-G combines institutional-grade security, additional yield on liquid staking, and DeFi opportunities.</p>
+                </div>
+                <button class="hero-btn">Restake Now</button>
+            </div>
+            <div class="hero-box">
+                <div class="hero-box-content">
+                    <div class="hero-box-head">
+                        <h2 class="mb-0">Total Value Restaked</h2>
+                        <p class="mb-0">$0</p>
+                    </div>
+                    <span class="oeth">OETH</span>
+                </div>
+                <div class="hero-box-content">
+                    <div class="hero-box-head">
+                        <h2 class="mb-0">APY</h2>
+                        <p class="mb-0">3.93%</p>
+                    </div>
+                    <div class="points">
+                    <span class="point">+
+                        EigenLayer Points
+                        </span>
+                        <span class="point">+
+                            Zero-G Points</span>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    
+</div>
+<!----------------------brands section start------------------------------>
+<section class=" brands">
+    <div class="hero-box-2 container">
+        <div class="hero-box-content-1">
+            <div class="hero-box-head-2">
+                <h2 class="mb-0">Total Value Restaked</h2>
+                <p class="mb-0">$0</p>
+            </div>
+            <span class="oeth-2">OETH</span>
+        </div>
+        <div class="hero-box-content-2">
+            <div class="hero-box-head-2">
+                <h2 class="mb-0">APY</h2>
+                <p class="mb-0">3.93%</p>
+            </div>
+            <div class="points-2">
+            <span class="point-2">+
+                EigenLayer Points
+                </span>
+                <span class="point-2">+
+                    Zero-G Points</span>
+        </div>
+        </div>
+    </div>
+    <div class="brands-section container">
+   <h2>Supported Chains</h2>
+    <div class="swiper-container ">
+      <div class="swiper-wrapper">
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+        <div class="brand-card">
+            <h3>Ethereum</h3>
+            <div class="brand-img">
+                <img src="./assets/ethereum.png" alt="ethereum"/>
+            </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+
+    <!---------------------hero section end----------------------------->
+    <!----------------------about zero section start--------------------------->
+    <section class="about-zero-section">
+        <div class="container about-zero">
+            <div class="about-content">
+                <div class="about-head">
+                    <h2 class="mb-0">What is Zero-G?</h2>
+                    <p class="mb-0">Zero-G is the first protocol to enable cross-chain restaking on L2.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="card-img">
+                        <img src="./assets/cursor-click.png"  alt="cursor-click"/>
+                    </div>
+                        <div class="about-desc">
+                            <h3 class="mb-0">One-Click Restaking</h3>
+                            <p class="mb-0">Enable users to restake with a single click from your UI, directly from the chain of their choice. There’s no need to manually bridge assets to Mainnet.</p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-img">
+                        <img src="./assets/sale-02.png"  alt="sale-icon"/>
+                    </div>
+                        <div class="about-desc">
+                            <h3 class="mb-0">Low Fee</h3>
+                            <p class="mb-0">Enable users to restake with a single click from your UI, directly from the chain of their choice. There’s no need to manually bridge assets to Mainnet.</p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-img">
+                        <img src="./assets/bank.png" alt="bank-icon"/>
+                    </div>
+                        <div class="about-desc">
+                            <h3 class="mb-0">Asset Preservation</h3>
+                            <p class="mb-0">Enable users to restake with a single click from your UI, directly from the chain of their choice. There’s no need to manually bridge assets to Mainnet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+     <!----------------------about zero section end--------------------------->
+     <!-----------------------------Road map section start-------------------------->
+     <section class="roadmap-section">
+        <div class="container roadmap">
+            <div class="roadmap-top-content">
+                <div class="roadmap-head">
+                    <h2 class="mb-0">Roadmap</h2>
+                    <button class="roadmap-btn">Documentation</button>
+                </div>
+                <ol class="roadmap-structure">
+                    <li class="roadmap-item">
+                        
+                            <span class="icon-wraper d-flex align-items-center justify-content-center">
+                              <img width="20" height="20" src="assets/code-circle-02.png" alt="icon">
+                            </span>
+                            <p class="roadmap-text">Develop on Testnet</p>
+                
+                            <span class="step-count">Step 1</span>
+                         
+                    </li>
+                    <li class="roadmap-item">
+                        <span class="icon-wraper d-flex align-items-center justify-content-center">
+                          <img width="20" height="20" src="assets/code-circle-02.png" alt="icon">
+                        </span>
+                        <p class="roadmap-text">Audit</p>
+                        <span class="step-count">Step 2</span>
+                      </li>
+                      <li class="roadmap-item ">
+                        <span class="icon-wraper d-flex align-items-center justify-content-center">
+                          <img width="20" height="20" src="assets/code-circle-02.png" alt="icon">
+                        </span>
+                        <p class="roadmap-text">Launch on Mainnet, Arbitrum, Base, Optimism</p>
+                        <span class="step-count">Step 3</span>
+                      </li>
+                      <li class="roadmap-item  h-100">
+                        <div class="ms-auto h-100 br-1-solid position-relative" style="width: fit-content;">
+                          <span class="icon-wraper d-flex align-items-center justify-content-center">
+                            <img width="20" height="20" src="assets/code-circle-02.png" alt="icon">
+                          </span>
+                          <p class="roadmap-text">Add Metis and BSC</p>
+                          <span class="step-count-5">Step 5</span>
+                        </div>
+            
+                        <div class="bl-1-solid h-100 d-flex flex-column justify-content-end">
+                          <span class="icon-wraper d-flex align-items-center justify-content-center">
+                            <img width="20" height="20" src="assets/code-circle-02.png" alt="icon">
+                          </span>
+                          <p class="roadmap-text">DeFi Integration</p>
+                        </div>
+                        <span class="step-count">Step 4</span>
+                        
+                      </li>
+
+                </ol>
+            </div>
+            <div class="roadmap-bottom-content">
+                <div class="roadmap-bottom-card interactive-card">
+                    <div class="roadmap-card-head">
+                        <h3 class="mb-0">What is Connext</h3>
+                        <p class="mb-0">Users can now enjoy the benefits of restaking without incurring high mainnet transaction fees, making restaking more accessible & appealing to users.</p>
+                    </div>
+                    <div>
+                    <button class="roadmap-card-btn">Connnext Docs</button>
+                </div>
+
+                    <div class="roadmap-card-bottom">
+                        <img src="./assets/context.png" class="img-fluid" alt="context"/>
+                    </div>
+                    
+              
+                </div>
+                <div class="roadmap-bottom-card interactive-card2">
+                    <div class="roadmap-card-head">
+                        <h3 class="mb-0">What is EigenLayer</h3>
+                        <p class="mb-0">EigenLayer is a platform that enhances the security of various protocols by integrating them with Ethereum's security model through data availability services, eliminating the need for protocols to establish their own set of validators.</p>
+                    </div>
+                    <div>
+                    <button class="roadmap-card-btn">Connnext Docs</button>
+                </div>
+
+                    <div class="roadmap-card-bottom" style="padding-bottom: 38px;" >
+                        <img src="./assets/eigen-layer.png" class="img-fluid" alt="eigen-layer"/>
+                    </div>
+                    
+              
+                </div>
+            </div>
+            
+        </div>
+     </section>
+     <!-----------------------------Road map section end-------------------------->
+     <!---------------------Zero g points section start----------------------->
+     <section class="zero-points-section">
+        <div class="container zero-points">
+            <div class="points-content">
+                <div class="points-head">
+                    <h2 class="mb-0">Zero-G Points</h2>
+                    <p class="mb-0">We reward loyal users actively contributing to our protocol's journey with Zero-G Points!.</p>
+                </div>
+                <div class="points-cards">
+                    <div class="points-card">
+                        <div class="card-img">
+                        <img src="./assets/currency-dollar-circle.png"  alt="currency-dollar-circle"/>
+                    </div>
+                        <div class="points-desc">
+                            <h3 class="mb-0">Be early adopter!</h3>
+                            <p class="mb-0">Early depositors will earn up to 3x boost points on their deposit.</p>
+                        </div>
+                    </div>
+                    <div class="points-card">
+                        <div class="card-img">
+                        <img src="./assets/users-right.png"  alt="users-right"/>
+                    </div>
+                        <div class="points-desc">
+                            <h3 class="mb-0">Referral Program</h3>
+                            <p class="mb-0">Early depositors will earn up to 3x boost points on their deposit.</p>
+                        </div>
+                    </div>
+                    <div class="points-card">
+                        <div class="card-img">
+                        <img src="./assets/coins-hand.png" alt="coins-hand"/>
+                    </div>
+                        <div class="points-desc">
+                            <h3 class="mb-0">Be rewarded with a 3x booster</h3>
+                            <p class="mb-0">Early depositors will earn up to 3x boost points on their deposit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+      
+      <!---------------------Zero g points section end----------------------->
+      <!---------------------cross-chain start-------------------------------->
+      <section class="cross-chain-section">
+        <div class="container cross-chain">
+            <h2 class="mb-0">Start your cross-chain restaking journey with Zero-G today!</h2>
+            <button class="cross-btn">Learn about Zero-G Points</button>
+        </div>
+      </section>
+      <!---------------------cross-chain end-------------------------------->
+
+    <!----------------------------Footer section start-------------------->
+    <section class="footer-section">
+        <div class="container footer">
+            <div class="footer-left">
+                <a href="/"><img src="./assets/footer-logo.png" class="footer-logo" alt="footer-logo"/></a>
+                <div class="follow-us">
+                    <p class="mb-0">Follow us on</p>
+                    <div class="social-icons">
+                        <a href="#"><img src="./assets/githb.png" alt="githb"/></a>
+                        <a href="#"><img src="/assets/game.png" alt="game-icons"/></a>
+                        <a href="#"><img src="./assets/x.png" alt="x"/></a>
+                    </div>
+                </div>
+                <button class="footer-btn">Restake Now</button>
+            </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                <a href="#community" class="footer-head">Community</a>
+                <ul>
+                    <li><a href="#">X(Twitter)</a></li>
+                    <li><a href="#">Discord</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <a href="#community" class="footer-head">Learn More</a>
+                <ul>
+                    <li><a href="#">Connext</a></li>
+                    <li><a href="#">EigenLayer</a></li>
+                    <li><a href="#">Documentation</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+      
+    </section>
+    <!----------------------------Footer section end-------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
