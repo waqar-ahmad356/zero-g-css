@@ -100,6 +100,9 @@ font-style: normal;
 font-weight: 600;
 line-height: 24px; /* 150% */
 }
+.nav-btn:hover{
+    background-color: #2cddbd;
+}
 .logo{
     width: 228px;
     height: 66px;
@@ -300,6 +303,9 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
+}
+.hero-btn:hover{
+    background-color: #2cddbd;
 }
 .hero-box{
     display:flex;
@@ -720,7 +726,11 @@ background: #1C2029;
 }
 .about-card:hover{
     background-color: #77E8C5;
-    
+  
+    cursor: pointer;   
+}
+.about-card:hover , .about-card h3 , .about-card p{
+    color:#050707;
 }
 .about-card .card-img{
     border-radius: 8px;
@@ -729,10 +739,6 @@ padding: 14px;
 width: 52px ;
 height: 52px;
 
-
-
-
-
 }
 .about-desc{
     display: flex;
@@ -740,20 +746,18 @@ height: 52px;
     align-items: flex-start;
     gap: 12px;
 }
-.about-desc h3{
-    color: var(--White-white-50, #FFF);
-
-
+.about-card h3{
+color: var(--White-white-50, #FFF);
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 28px; /* 155.556% */
 }
-.about-desc p{
+
+.about-card p{
     color: var(--Grey-grey-200, #D2D6D4);
 
-    /* Text md/Regular */
-    font-family: Inter;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -860,6 +864,9 @@ letter-spacing: -0.96px;
 border: 1px solid var(--Primary-primary-500, #83FFD9);
 background: var(--Primary-primary-500, #83FFD9);
 padding: 12px 20px;
+}
+.roadmap-btn:hover{
+    background-color: #2cddbd;
 }
 .roadmap-structure{
     display: grid;
@@ -1448,6 +1455,9 @@ font-style: normal;
 font-weight: 600;
 line-height: 24px; /* 150% */
 }
+.cross-btn:hover{
+    background-color: #2cddbd;
+}
 /*------------------------responsive-----------------------*/
 @media (max-width:521px){
     .cross-chain-section{
@@ -1517,6 +1527,9 @@ line-height: 24px; /* 150% */
 background: var(--Primary-primary-100, #D9FFF3);
 padding: 10px 8px 6px 8px;
 }
+.social-icons a img:hover{
+    background-color: #2cddbd;
+}
 .footer-btn{
     border-radius: 8px;
     border: 1px solid  #83FFD9;
@@ -1528,6 +1541,9 @@ padding: 10px 8px 6px 8px;
     font-weight: 600;
     line-height: 24px; /* 150% */
     }
+.footer-btn:hover{
+    background-color: #2cddbd;
+}
 .footer-right{
     display:flex;
    flex-wrap: wrap;
