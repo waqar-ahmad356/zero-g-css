@@ -46,6 +46,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
   
 }
 .navbar-g {
@@ -53,6 +54,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-top: 24px;
+  width: 100%;
   
   
  
@@ -161,7 +163,7 @@ line-height: 24px; /* 150% */
        
       }
     .nav-menus{
-        position: fixed;
+    position: fixed;
     top: 0;
     right: -100%; /* Initially hidden */
     height: 100%;
@@ -170,7 +172,7 @@ line-height: 24px; /* 150% */
     box-shadow: 5px 4px 10.9px 0px rgba(0, 0, 0, 0.1);
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     padding-left: 40px;
     gap: 16px;
     transition: right 0.3s ease; /* Smooth sliding */
@@ -206,7 +208,7 @@ line-height: 24px; /* 150% */
     padding: 10px 20px;
     border-radius: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 120px;
+    margin-bottom: 200px;
     
 
     z-index: 100001;

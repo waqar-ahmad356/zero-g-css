@@ -97,3 +97,27 @@ card2.addEventListener('mousemove', (e) => {
 card2.addEventListener('mouseleave', () => {
   card2.style.background = 'linear-gradient(#83ffd9, #181818)';
 });
+
+
+// Map of links to their corresponding sections
+const linksMap = {
+  "about-link": "about",
+  "documentation-link": "documentation",
+  "context-link": "context",
+  "eigen-layer-link": "eigen-layer",
+};
+
+// Add event listeners for each link
+Object.keys(linksMap).forEach((linkId) => {
+  const link = document.getElementById(linkId);
+  const sectionId = linksMap[linkId];
+  const section = document.getElementById(sectionId);
+
+  link.addEventListener("click", (e) => {
+    e.preventDefault(); // Prevent default link behavior
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  });
+});
