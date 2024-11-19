@@ -178,7 +178,8 @@ line-height: 24px; /* 150% */
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-left: 40px;
+    padding-left: 16px;
+    padding-top: 26px;
     gap: 16px;
     transition: right 0.3s ease; /* Smooth sliding */
     z-index: 100000;
@@ -754,7 +755,7 @@ background: #1C2029;
   
     cursor: pointer;   
 }
-.about-card:hover , .about-card h3 , .about-card p{
+.about-card:hover h3 , .about-card:hover p{
     color:#050707;
 }
 .about-card .card-img{
@@ -1378,7 +1379,7 @@ height: 52px;
     align-items: flex-start;
     gap: 12px;
 }
-.points-desc h3{
+.points-card h3{
     color: var(--White-white-50, #FFF);
 
 
@@ -1387,7 +1388,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 28px; /* 155.556% */
 }
-.points-desc p{
+.points-card p{
     color: var(--Grey-grey-200, #D2D6D4);
 
     
@@ -1396,6 +1397,13 @@ line-height: 28px; /* 155.556% */
     font-weight: 400;
     line-height: 24px; /* 150% */
 }
+.points-card:hover{
+    background-color: #2cddbd;
+}
+.points-card:hover h3,.points-card p{
+    color: #050707;
+}
+
 /*-------------------------responsive-------------------------------*/
 @media (max-width:768px){
     .points-cards{
