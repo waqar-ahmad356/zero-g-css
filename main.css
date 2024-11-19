@@ -117,6 +117,9 @@ line-height: 24px; /* 150% */
 .close-btn{
     display: none;
 }
+.nav-mobile{
+    display: none;
+}
 /*---------------------responsive-------------------------*/
 @media (max-width:900px){
     .nav-menus li a{
@@ -182,6 +185,21 @@ line-height: 24px; /* 150% */
     padding-bottom: 150px;
        
     }
+    .nav-mobile{
+        display: flex;
+        border-radius: 8px;
+        border: 1px solid  #83FFD9;
+        background:  #83FFD9;
+        color:  #050707;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+    }
+    .nav-mobile:hover{
+        background: #37d8a8;
+    }
     .close-btn {
         z-index: 100001;
         display: none;
@@ -217,7 +235,7 @@ line-height: 24px; /* 150% */
     display: none;
     }
     .nav-btn.active{
-        display: flex;
+        display: none;
     }
     .navbar-g .logo{
         width: 97px;
@@ -386,6 +404,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 30px; /* 150% */
 }
+
 /*-------------------responsive---------------------------*/
 @media (max-width:768px){
     
@@ -416,6 +435,7 @@ line-height: 30px; /* 150% */
     .hero-box{
         flex-wrap: wrap;
     }
+   
 }
 @media (max-width:521px){
    .hero-box{
