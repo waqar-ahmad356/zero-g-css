@@ -394,6 +394,7 @@ line-height: 30px; /* 150% */
         
     }
     .hero{
+        padding-top: 50px;
         gap: 32px;
     }
     .hero-img img{
